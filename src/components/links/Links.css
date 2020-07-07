@@ -1,0 +1,14 @@
+.Links {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .Links {
+    flex-direction: column;
+  }
+
+  .Links p {
+    padding: 0 10px;
+  }
+}
